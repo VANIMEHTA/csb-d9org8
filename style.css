@@ -1,0 +1,39 @@
+body {
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.result {
+  position: relative;
+  padding: 10px;
+  margin-top: 40px;
+  margin-left: 15%;
+  width: 70%;
+}
+.result .word {
+  display: flex;
+
+  justify-content: space-between;
+}
+.dic {
+  font-family: "Sedgwick Ave Display", cursive;
+  padding-left: 25px;
+  padding-right: 20px;
+}
+.sound-but {
+  border: none;
+  background-color: #e3f2fd;
+  border-radius: 5px;
+  margin-left: none;
+}
+.result .details {
+  display: flex;
+  gap: 10px;
+  margin: 5px 0px 20px 0px;
+  color: grey;
+}
+.word-meaning {
+  display: block;
+}
